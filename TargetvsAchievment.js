@@ -30,7 +30,7 @@ const TargetvsAchievment = () => {
                     <CCardHeader>
                         <strong className="mt-2">Target vs Achievment</strong>
                     </CCardHeader>
-                    <CCardBody>
+                    <CCardBody style={{overflowX:"scroll"}}>
                         <CRow className='d-flex justify-content-center mb-2'>
                             <CCol lg={3} sm={6} className='mb-2'>
                                 <CInputGroup
@@ -117,7 +117,110 @@ const TargetvsAchievment = () => {
                                 </CButton>
                             </CCol>
                         </CRow>
-                        <CContainer style={{ width: "100%", overflow: "hidden", overflowX: "scroll" }}>
+                        <table>
+                            <tbody>
+                                <tr>
+                                <th rowSpan={2} >Sr No</th>
+                                <th rowSpan={2} >Center Name</th>
+                                <th colSpan={2}>January</th>
+                                <th colSpan={2}>February</th>
+                                <th colSpan={2}>March</th>
+                                <th colSpan={2}>April</th>
+                                <th colSpan={2}>May</th>
+                                <th colSpan={2}>June</th>
+                                <th colSpan={2}>July</th>
+                                <th colSpan={2}>August</th>
+                                <th colSpan={2}>September</th>
+                                <th colSpan={2}>October</th>
+                                <th colSpan={2}>November</th>
+                                <th colSpan={2}>December</th>
+                            </tr>
+                            <tr>
+                                <th>Target</th>
+                                <th>Revenue</th>
+                                <th>Target</th>
+                                <th>Revenue</th>
+                                <th>Target</th>
+                                <th>Revenue</th>
+                                <th>Target</th>
+                                <th>Revenue</th>
+                                <th>Target</th>
+                                <th>Revenue</th>
+                                <th>Target</th>
+                                <th>Revenue</th>
+                                <th>Target</th>
+                                <th>Revenue</th>
+                                <th>Target</th>
+                                <th>Revenue</th>
+                                <th>Target</th>
+                                <th>Revenue</th>
+                                <th>Target</th>
+                                <th>Revenue</th>
+                                <th>Target</th>
+                                <th>Revenue</th>
+                                <th>Target</th>
+                                <th>Revenue</th>
+                               
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td></td>
+                                <td></td>    
+                                <td></td>  
+                                <td></td>  
+                                <td></td>  
+                                <td></td>
+                                <td></td>    
+                                <td></td>  
+                                <td></td>  
+                                <td></td>  
+                                <td></td>
+                                <td></td>    
+                                <td></td>  
+                                <td></td>  
+                                <td></td>  
+                                <td></td>
+                                <td></td>    
+                                <td></td>  
+                                <td></td>  
+                                <td></td>  
+                                <td></td>  
+                                <td></td>
+                                <td></td>  
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td></td>
+                                <td></td>    
+                                <td></td>  
+                                <td></td>  
+                                <td></td>  
+                                <td></td>
+                                <td></td>    
+                                <td></td>  
+                                <td></td>  
+                                <td></td>  
+                                <td></td>
+                                <td></td>    
+                                <td></td>  
+                                <td></td>  
+                                <td></td>  
+                                <td></td>
+                                <td></td>    
+                                <td></td>  
+                                <td></td>  
+                                <td></td> 
+                                <td></td>  
+                                <td></td> 
+                                <td></td>  
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        {/* <CContainer style={{ width: "100%", overflow: "hidden", overflowX: "scroll" }}>
                             <CContainer style={{ minWidth: "4500px" ,textAlign:"center" }}>
                         
                                     <CRow className='targetHeader'>
@@ -176,7 +279,7 @@ const TargetvsAchievment = () => {
 
                                
                             </CContainer>
-                        </CContainer>
+                        </CContainer> */}
                         {/* <tbody>
                             <table border="2">
                                 <tr>
